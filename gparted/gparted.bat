@@ -36,4 +36,6 @@ color 70
 title GParted - shell
 
 :start
-diskpart
+echo to run just type: diskpart
+timeout /t 4 >nul
+cmd
